@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 13px Helvetica, Arial;
+}
+
+.send {
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+}
+
+.send > .input {
+  width: 90%;
+  display: inline-block;
+  border: 1px solid #88ffff;
+}
+
+.send > .button {
+  width: 9.5%;
+  display: inline-block;
+}
+
+.send input, .send button{
+  width: 100%;
+  padding: 10px;
+}
+
+.messages {
+  list-style-type: none;
+}
+
+.messages li {
+  padding: 5px 10px;
+  background: #ff88ff;
+}
+
+.messages li:nth-child(odd) {
+  background: #88ffff;
+}

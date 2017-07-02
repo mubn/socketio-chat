@@ -2,12 +2,17 @@
 <html>
   <head>
     <title>Socket.IO Chat</title>
+    <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
-    <ul id="messages"></ul>
-    <form action="">
-      <input type="text" id="message" autocomplete="off" />
-      <button>Send</button>
+    <ul class="messages" id="messages"></ul>
+    <form class="send" action="">
+      <div class="input">
+        <input type="text" id="message" autocomplete="off" />
+      </div>
+      <div class="button">
+        <button>Send</button>
+      </div>
     </form>
 
     <script src="/socket.io/socket.io.js"></script>
